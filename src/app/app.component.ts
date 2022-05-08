@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Basic Routing in Angular';
+  title = '404 page not found or wild character Routing in Angular';
 }
