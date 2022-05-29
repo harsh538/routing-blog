@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '404 page not found or wild character Routing in Angular';
+  title = 'Service in Angular';
+  memberDetails=[
+    {name:'Harshad',email:'Harsh@gmail.com'},
+    {name:'vishal',email:'vis@gmail.com'},
+    {name:'Subodh',email:'Su@gmail.com'},
+    {name:'Rajat',email:'Ra@gmail.com'},
+  ]
 }
