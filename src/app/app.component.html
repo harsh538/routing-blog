@@ -1,7 +1,9 @@
 <h1>{{title}}</h1>
-<ul>
-    <li *ngFor="let X of memberDetails">
-        {{X.name}}
-    </li>
-</ul>
+<div>
+    <ul>
+        <li *ngFor="let usr of userD">
+            {{usr.name}}  : {{usr.age}}
+        </li>
+    </ul>
+</div>
 <app-footer></app-footer>
